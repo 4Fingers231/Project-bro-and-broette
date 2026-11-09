@@ -16,7 +16,7 @@ public class MainGame : MonoBehaviour
             _CurrentSequenceNumber++;
             UpdateDialogSequence(Dialogs[_CurrentSequenceNumber]);
         }
-
+  
     void UpdateDialogSequence( DialogSequence sequence )
     {
         TextDialog.text = sequence.TextDialog;
