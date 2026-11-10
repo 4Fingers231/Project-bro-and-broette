@@ -166,7 +166,7 @@ MonoBehaviour:
   TextDialog: Mais enfin Christine.
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &167409937
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
   TextDialog: Ok on y va alors.
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &356414484
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 356414485}
   - component: {fileID: 356414486}
   m_Layer: 0
-  m_Name: Dialog7
+  m_Name: Dialog8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
   TextDialog: "Oh mince il est d\xE9j\xE0 l\xE0."
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: 8970822959883959768, guid: ed58c8225df384549aa1fc5c96a47dae, type: 3}
 --- !u!1 &359327399
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   TextDialog: "Il faut qu\u2019on aille au macdo afin de nous nourrir."
   TextNameCharacter: Christine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +807,54 @@ Transform:
   - {fileID: 1285004728}
   m_Father: {fileID: 1403767880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &874696751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874696752}
+  - component: {fileID: 874696753}
+  m_Layer: 0
+  m_Name: Dialog7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874696752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874696751}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874696753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874696751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Ils vont au metro
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 7825909105751859210, guid: 73335050b92a7d849b9fcce37c6fe635, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &930680900
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +866,7 @@ GameObject:
   - component: {fileID: 930680901}
   - component: {fileID: 930680902}
   m_Layer: 0
-  m_Name: Dialog9
+  m_Name: Dialog10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -854,7 +902,7 @@ MonoBehaviour:
   TextDialog: "C\u2019est ok y\u2019en plein d'autres apr\xE8s."
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: 8970822959883959768, guid: ed58c8225df384549aa1fc5c96a47dae, type: 3}
 --- !u!1 &1058570865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,7 +1083,7 @@ MonoBehaviour:
   TextDialog: "Mais enfin Christine c\u2019est super loin."
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &1122732104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1325,7 @@ Transform:
   - {fileID: 1065831239}
   - {fileID: 2026103909}
   - {fileID: 167409938}
+  - {fileID: 874696752}
   - {fileID: 356414485}
   - {fileID: 1576663811}
   - {fileID: 930680901}
@@ -1572,7 +1621,7 @@ GameObject:
   - component: {fileID: 1576663811}
   - component: {fileID: 1576663812}
   m_Layer: 0
-  m_Name: Dialog8
+  m_Name: Dialog9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1608,7 +1657,7 @@ MonoBehaviour:
   TextDialog: Vite on va le rater !
   TextNameCharacter: Christine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: 8970822959883959768, guid: ed58c8225df384549aa1fc5c96a47dae, type: 3}
 --- !u!1 &1620728376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,8 +1841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Christophe d\xE9p\xEAche toi j\u2019ai faim."
   TextNameCharacter: Christine
-  SpriteCharacter: {fileID: 21300000, guid: 70f7b9130b9d8aa45a388342e9da7cea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 1c520ef9c3b28804b9dd52c1db4fa448, type: 3}
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &1861736849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1895,7 @@ MonoBehaviour:
   - {fileID: 1065831240}
   - {fileID: 2026103910}
   - {fileID: 167409939}
+  - {fileID: 874696753}
   - {fileID: 356414486}
   - {fileID: 1576663812}
   - {fileID: 930680902}
@@ -1901,7 +1951,7 @@ MonoBehaviour:
   TextDialog: "Christophe d\xE9p\xEAche toi j\u2019ai faim."
   TextNameCharacter: Christine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 1c520ef9c3b28804b9dd52c1db4fa448, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &2026103908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1999,7 @@ MonoBehaviour:
   TextDialog: "C\u2019est ok, le m\xE9tro est une invention formidable."
   TextNameCharacter: Chrsitine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
 --- !u!1 &2107975695
 GameObject:
   m_ObjectHideFlags: 0
