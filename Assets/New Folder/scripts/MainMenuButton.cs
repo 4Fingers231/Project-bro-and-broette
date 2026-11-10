@@ -31,7 +31,7 @@ public class MainMenuButton : MonoBehaviour
     {
         if (_hidden == true) {return;}
         ImageOutline.DOKill();
-        ImageOutline.DOFade(1, 0.6f);
+        ImageOutline.DOFade(1, 0.2f);
         UITextMeshPro.DOKill();
         UITextMeshPro.DOColor(OverColor,0.3f);
     }
@@ -39,14 +39,14 @@ public class MainMenuButton : MonoBehaviour
     {
         if (_hidden == true) {return;}
         ImageOutline.DOKill();
-        ImageOutline.DOFade(0, 0.1f);
+        ImageOutline.DOFade(0.5f, 0.1f);
         UITextMeshPro.DOKill();
         UITextMeshPro.DOColor(InitialColor,0.2f);
     }
     public void OnClickPlay()
     {
         ImageFade.gameObject.SetActive(true);
-        ImageFade.DOFade(1, 0.8f).OnComplete(FadeComplete);
+        ImageFade.DOFade(1, 2.5f).OnComplete(FadeComplete);
         for (int i = 1; i < Buttons.Count; i++)
         {
             Buttons[i].Hide(0.1f);
