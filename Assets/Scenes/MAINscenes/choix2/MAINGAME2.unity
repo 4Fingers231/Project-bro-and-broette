@@ -672,7 +672,7 @@ MonoBehaviour:
   TextDialog: ATTENTE
   TextNameCharacter: 
   SpriteCharacter: {fileID: 7825909105751859210, guid: 73335050b92a7d849b9fcce37c6fe635, type: 3}
-  SpriteBackground: {fileID: 8970822959883959768, guid: ed58c8225df384549aa1fc5c96a47dae, type: 3}
+  SpriteBackground: {fileID: 710889969608176225, guid: b42316238c9c9464e8f7173b85bda93e, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

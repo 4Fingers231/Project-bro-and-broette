@@ -854,7 +854,7 @@ MonoBehaviour:
   TextDialog: Ils vont au metro
   TextNameCharacter: 
   SpriteCharacter: {fileID: 7825909105751859210, guid: 73335050b92a7d849b9fcce37c6fe635, type: 3}
-  SpriteBackground: {fileID: -8901172008719056419, guid: 83534f64ae8531c4eb133dcbda462e68, type: 3}
+  SpriteBackground: {fileID: 710889969608176225, guid: b42316238c9c9464e8f7173b85bda93e, type: 3}
 --- !u!1 &930680900
 GameObject:
   m_ObjectHideFlags: 0

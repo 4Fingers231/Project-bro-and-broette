@@ -31,7 +31,7 @@ public class MainMenuButton : MonoBehaviour
     {
         if (_hidden == true) {return;}
         ImageOutline.DOKill();
-        ImageOutline.DOFade(1, 0.2f);
+        ImageOutline.DOColor(InitialColor,0.3f);
         UITextMeshPro.DOKill();
         UITextMeshPro.DOColor(OverColor,0.3f);
     }
@@ -39,7 +39,7 @@ public class MainMenuButton : MonoBehaviour
     {
         if (_hidden == true) {return;}
         ImageOutline.DOKill();
-        ImageOutline.DOFade(0, 0.1f);
+        ImageOutline.DOColor(OverColor,0.2f);
         UITextMeshPro.DOKill();
         UITextMeshPro.DOColor(InitialColor,0.2f);
     }
@@ -57,7 +57,36 @@ public class MainMenuButton : MonoBehaviour
         SceneManager.LoadScene("MAINGAME");
     }
 
-
+    public void OnClickPlay1()
+    {
+        
+        SceneManager.LoadScene("MAINGAME1");
+    }
+    public void OnClickPlay2()
+    {
+        
+        SceneManager.LoadScene("MAINGAME2");
+    }
+    public void OnClickPlay1_1()
+    {
+        
+        SceneManager.LoadScene("MAINGAME1_1");
+    }
+    public void OnClickPlay1_2()
+    {
+        
+        SceneManager.LoadScene("MAINGAME1_2");
+    }
+    public void OnClickPlay2_1()
+    {
+        
+        SceneManager.LoadScene("MAINGAME2_1");
+    }
+    public void OnClickPlay2_2()
+    {
+        
+        SceneManager.LoadScene("MAINGAME2_2");
+    }
     // Update is called once per frame
     void Update()
     {

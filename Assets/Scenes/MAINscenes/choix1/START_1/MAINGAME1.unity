@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "D\u2019accord c\u2019est ok."
+  TextDialog: "Je sais pas j\u2019ai pas regard\xE9."
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
@@ -211,106 +211,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: On dirait bien que non.
+  TextDialog: "Tu dis que des b\xEAtises. "
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
---- !u!1 &240101010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 240101011}
-  - component: {fileID: 240101012}
-  m_Layer: 0
-  m_Name: Dialog12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &240101011
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240101010}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1201471279}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &240101012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240101010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: gloub gloub
-  TextNameCharacter: Christophe
-  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 7005628837231012030, guid: a87e084c94e4d214384422d34cab259d, type: 3}
---- !u!1 &295153914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 295153915}
-  - component: {fileID: 295153916}
-  m_Layer: 0
-  m_Name: Dialog10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &295153915
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295153914}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1201471279}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &295153916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295153914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: "Il va dans la mer mais qu\u2019est ce qu\u2019il se passe ?"
-  TextNameCharacter: Christophe
-  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 7005628837231012030, guid: a87e084c94e4d214384422d34cab259d, type: 3}
 --- !u!1 &356414484
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +226,7 @@ GameObject:
   - component: {fileID: 356414485}
   - component: {fileID: 356414486}
   m_Layer: 0
-  m_Name: Dialog7
+  m_Name: Dialog8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,10 +259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Mais on est \xE0 la plage l\xE0."
-  TextNameCharacter: Christine
+  TextDialog: oui
+  TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 2002536173223136119, guid: 8dc29ae32c10f0449bb9080c5e0b7bbd, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &359327399
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,9 +669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: plus tard
-  TextNameCharacter: 
-  SpriteCharacter: {fileID: 7825909105751859210, guid: 73335050b92a7d849b9fcce37c6fe635, type: 3}
+  TextDialog: "Mais enfin c\u2019est terrible on sait meme pas si il va au macdo
+    !"
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &619394800
 GameObject:
@@ -854,7 +759,11 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
-          rid: -2
+          rid: 266459187719438410
+    - rid: 266459187719438410
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -870,54 +779,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &636116194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 636116195}
-  - component: {fileID: 636116196}
-  m_Layer: 0
-  m_Name: Dialog13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &636116195
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 636116194}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1201471279}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &636116196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 636116194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: Mon maxi best of nooooon gloub gloub
-  TextNameCharacter: Christine
-  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 7005628837231012030, guid: a87e084c94e4d214384422d34cab259d, type: 3}
 --- !u!1 &644768520
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +823,7 @@ GameObject:
   - component: {fileID: 930680901}
   - component: {fileID: 930680902}
   m_Layer: 0
-  m_Name: Dialog9
+  m_Name: Dialog10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,10 +856,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Mais il s\u2019arrete pas du tout."
-  TextNameCharacter: Christine
-  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 2002536173223136119, guid: 8dc29ae32c10f0449bb9080c5e0b7bbd, type: 3}
+  TextDialog: Je sais toujours pas.
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1058570865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Wah mais s'arr\xEAte jamais."
+  TextDialog: Tu survivras.
   TextNameCharacter: Christophe
   SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
@@ -1415,19 +1276,19 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1744532858}
+  - {fileID: 1676637267}
   - {fileID: 1999111379}
   - {fileID: 132294933}
   - {fileID: 558229973}
   - {fileID: 1065831239}
   - {fileID: 2026103909}
   - {fileID: 167409938}
+  - {fileID: 1520414949}
   - {fileID: 356414485}
   - {fileID: 1576663811}
   - {fileID: 930680901}
-  - {fileID: 295153915}
-  - {fileID: 1455844656}
-  - {fileID: 240101011}
-  - {fileID: 636116195}
+  - {fileID: 1304818010}
+  - {fileID: 1855980746}
   m_Father: {fileID: 1403767880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1227770903
@@ -1600,6 +1461,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285004727}
   m_CullTransparentMesh: 1
+--- !u!1 &1304818009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1304818010}
+  - component: {fileID: 1304818011}
+  m_Layer: 0
+  m_Name: Dialog11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1304818010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304818009}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1304818011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304818009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: On fait comment alors ?
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1403767876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,7 +1618,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1455844655
+--- !u!1 &1520414948
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1717,22 +1626,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1455844656}
-  - component: {fileID: 1455844657}
+  - component: {fileID: 1520414949}
+  - component: {fileID: 1520414950}
   m_Layer: 0
-  m_Name: Dialog11
+  m_Name: Dialog7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1455844656
+--- !u!4 &1520414949
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455844655}
+  m_GameObject: {fileID: 1520414948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1741,22 +1650,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1201471279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1455844657
+--- !u!114 &1520414950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455844655}
+  m_GameObject: {fileID: 1520414948}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "On est sous l\u2019eau nooooooooon"
+  TextDialog: "Tu veux que je meure c\u2019est \xE7a ?"
   TextNameCharacter: Christine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
-  SpriteBackground: {fileID: 7005628837231012030, guid: a87e084c94e4d214384422d34cab259d, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1576663810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,7 +1677,7 @@ GameObject:
   - component: {fileID: 1576663811}
   - component: {fileID: 1576663812}
   m_Layer: 0
-  m_Name: Dialog8
+  m_Name: Dialog9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1801,10 +1710,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Ah oui le train devrait s'arr\xEAter bient\xF4t."
-  TextNameCharacter: Christophe
-  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
-  SpriteBackground: {fileID: 2002536173223136119, guid: 8dc29ae32c10f0449bb9080c5e0b7bbd, type: 3}
+  TextDialog: Mais du coup il va ou le metro ?
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1620728376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1851,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620728376}
   m_CullTransparentMesh: 1
+--- !u!1 &1676637266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676637267}
+  - component: {fileID: 1676637268}
+  m_Layer: 0
+  m_Name: 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1676637267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676637266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1676637268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676637266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Oh wow on l\u2019a eu."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1744532857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,10 +1943,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Christophe d\xE9p\xEAche toi j\u2019ai faim."
-  TextNameCharacter: Christine
-  SpriteCharacter: {fileID: 21300000, guid: 70f7b9130b9d8aa45a388342e9da7cea, type: 3}
-  SpriteBackground: {fileID: 21300000, guid: 1c520ef9c3b28804b9dd52c1db4fa448, type: 3}
+  TextDialog: "Oh wow on l\u2019a eu."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
+--- !u!1 &1855980745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855980746}
+  - component: {fileID: 1855980747}
+  m_Layer: 0
+  m_Name: Dialog12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855980746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855980745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855980747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855980745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Soit on reste l\xE0 soit on descend et on en prend un autre."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &1861736849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogs:
+  - {fileID: 1676637268}
   - {fileID: 1744532859}
   - {fileID: 1999111380}
   - {fileID: 132294934}
@@ -2042,13 +2048,12 @@ MonoBehaviour:
   - {fileID: 1065831240}
   - {fileID: 2026103910}
   - {fileID: 167409939}
+  - {fileID: 1520414950}
   - {fileID: 356414486}
   - {fileID: 1576663812}
   - {fileID: 930680902}
-  - {fileID: 295153916}
-  - {fileID: 1455844657}
-  - {fileID: 240101012}
-  - {fileID: 636116196}
+  - {fileID: 1304818011}
+  - {fileID: 1855980747}
   TextDialog: {fileID: 1155075494}
   TextCharacterName: {fileID: 1285004729}
   ImageCharacter: {fileID: 397083776}
@@ -2098,7 +2103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Tant pis on est l\xE0 on reste."
+  TextDialog: Il va ou meme ce metro ?
   TextNameCharacter: Christine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
@@ -2146,8 +2151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Ca va pas du tout vers macdo l\xE0."
-  TextNameCharacter: Chrsitine
+  TextDialog: "Non il me faut un maxi best of c\u2019est indispensable \xE0 ma survie."
+  TextNameCharacter: Chrisitine
   SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: -6572264301115460665, guid: 8c807f4f725a3084f8e510acae181da9, type: 3}
 --- !u!1 &2107975695
