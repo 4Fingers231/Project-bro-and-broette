@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Yo Clement, Did you finish my homework?
-  TextNameCharacter: Louise
-  SpriteCharacter: {fileID: 21300000, guid: 8e9c88e8a3889584c91a438c074c444f, type: 3}
+  TextDialog: Mais enfin Christine.
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &167409937
 GameObject:
@@ -211,9 +211,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: do you give the homework
-  TextNameCharacter: Narrator
-  SpriteCharacter: {fileID: 21300000, guid: ce68483c792921445a949701692954ab, type: 3}
+  TextDialog: Ok on y va alors.
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
+--- !u!1 &356414484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356414485}
+  - component: {fileID: 356414486}
+  m_Layer: 0
+  m_Name: Dialog7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356414485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356414484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &356414486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356414484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Oh mince il est d\xE9j\xE0 l\xE0."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &359327399
 GameObject:
@@ -249,8 +297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: -166}
-  m_SizeDelta: {x: 122.5781, y: 40.4454}
+  m_AnchoredPosition: {x: 167.6051, y: -180.19876}
+  m_SizeDelta: {x: 143.7883, y: 68.8429}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359327401
 MonoBehaviour:
@@ -399,8 +447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244.54205, y: -232.33597}
-  m_SizeDelta: {x: 299.0598, y: 89.8595}
+  m_AnchoredPosition: {x: 247.7482, y: -261.6495}
+  m_SizeDelta: {x: 305.4721, y: 148.4866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &424893486
 MonoBehaviour:
@@ -621,9 +669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Erm
-  TextNameCharacter: Clement
-  SpriteCharacter: {fileID: 21300000, guid: 0bf02d004f1d7fc40abac22c6edbd279, type: 3}
+  TextDialog: "Il faut qu\u2019on aille au macdo afin de nous nourrir."
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &619394800
 GameObject:
@@ -759,6 +807,54 @@ Transform:
   - {fileID: 1285004728}
   m_Father: {fileID: 1403767880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &930680900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930680901}
+  - component: {fileID: 930680902}
+  m_Layer: 0
+  m_Name: Dialog9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930680901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930680900}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930680902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930680900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "C\u2019est ok y\u2019en plein d'autres apr\xE8s."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &1058570865
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,9 +1032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: I think. I
-  TextNameCharacter: Clement
-  SpriteCharacter: {fileID: 21300000, guid: 70f7b9130b9d8aa45a388342e9da7cea, type: 3}
+  TextDialog: "Mais enfin Christine c\u2019est super loin."
+  TextNameCharacter: Christophe
+  SpriteCharacter: {fileID: 2177745870073613589, guid: c4817c25528b8024d8da8644834d4ab9, type: 3}
   SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &1122732104
 GameObject:
@@ -1042,8 +1138,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 235.34103, y: -231.19978}
-  m_SizeDelta: {x: 272.3341, y: 56.7559}
+  m_AnchoredPosition: {x: 235.34103, y: -239.90224}
+  m_SizeDelta: {x: 272.3341, y: 74.1608}
   m_Pivot: {x: 0.46259052, y: 0.50000024}
 --- !u!114 &1155075494
 MonoBehaviour:
@@ -1092,7 +1188,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.65
+  m_fontSize: 70.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1181,6 +1277,9 @@ Transform:
   - {fileID: 1065831239}
   - {fileID: 2026103909}
   - {fileID: 167409938}
+  - {fileID: 356414485}
+  - {fileID: 1576663811}
+  - {fileID: 930680901}
   m_Father: {fileID: 1403767880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1227770903
@@ -1250,8 +1349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144, y: -168}
-  m_SizeDelta: {x: 95.206, y: 22.0929}
+  m_AnchoredPosition: {x: 144, y: -173.0138}
+  m_SizeDelta: {x: 95.206, y: 31.2534}
   m_Pivot: {x: 0.3309671, y: 0.45267093}
 --- !u!114 &1285004729
 MonoBehaviour:
@@ -1300,7 +1399,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.25
+  m_fontSize: 23.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1339,7 +1438,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -0.56954956, z: 3.028717, w: 0}
+  m_margin: {x: 0, y: 5.281563, z: -16.71872, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1450,8 +1549,8 @@ RectTransform:
   m_Children:
   - {fileID: 2107975696}
   - {fileID: 397083775}
-  - {fileID: 1227770904}
   - {fileID: 644768521}
+  - {fileID: 1227770904}
   - {fileID: 1058570866}
   - {fileID: 1861736851}
   - {fileID: 1201471279}
@@ -1462,6 +1561,54 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1576663810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1576663811}
+  - component: {fileID: 1576663812}
+  m_Layer: 0
+  m_Name: Dialog8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1576663811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576663810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201471279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1576663812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576663810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Vite on va le rater !
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
+  SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &1620728376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,8 +1790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Mhh, what a great and beautifull day
-  TextNameCharacter: Clement
+  TextDialog: "Christophe d\xE9p\xEAche toi j\u2019ai faim."
+  TextNameCharacter: Christine
   SpriteCharacter: {fileID: 21300000, guid: 70f7b9130b9d8aa45a388342e9da7cea, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 1c520ef9c3b28804b9dd52c1db4fa448, type: 3}
 --- !u!1 &1861736849
@@ -1699,6 +1846,9 @@ MonoBehaviour:
   - {fileID: 1065831240}
   - {fileID: 2026103910}
   - {fileID: 167409939}
+  - {fileID: 356414486}
+  - {fileID: 1576663812}
+  - {fileID: 930680902}
   TextDialog: {fileID: 1155075494}
   TextCharacterName: {fileID: 1285004729}
   ImageCharacter: {fileID: 397083776}
@@ -1748,9 +1898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh what a beautifull day
-  TextNameCharacter: Clement
-  SpriteCharacter: {fileID: 21300000, guid: 70f7b9130b9d8aa45a388342e9da7cea, type: 3}
+  TextDialog: "Christophe d\xE9p\xEAche toi j\u2019ai faim."
+  TextNameCharacter: Christine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 1c520ef9c3b28804b9dd52c1db4fa448, type: 3}
 --- !u!1 &2026103908
 GameObject:
@@ -1796,9 +1946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03332f7b41acbba41baf6a250597ebb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: Oh no don't you dare leave me hanging
-  TextNameCharacter: Louise
-  SpriteCharacter: {fileID: 21300000, guid: 10a03dee9894a4b40a58e0ab11625e4a, type: 3}
+  TextDialog: "C\u2019est ok, le m\xE9tro est une invention formidable."
+  TextNameCharacter: Chrsitine
+  SpriteCharacter: {fileID: -9069055180914172376, guid: 4986b3e9d0f02584cb7432667e19bf10, type: 3}
   SpriteBackground: {fileID: 21300000, guid: fdf48d9d0cde4984b95cf3ff428cb826, type: 3}
 --- !u!1 &2107975695
 GameObject:

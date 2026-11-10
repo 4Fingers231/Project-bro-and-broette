@@ -14,13 +14,46 @@ public class buttonmyguy : MonoBehaviour
     }
     public void OnClick_quit()
     {
-        QuitGame();
+        SceneManager.LoadScene("MAINGAME");
     }
-
-    // Update is called once per frame
-    void start()
+    public void CHOIX1()
     {
-        OnClicknew_game();
-        OnClick_quit();
+        SceneManager.LoadScene("MAINGAME1");
+    }
+    public void CHOIX1_1()
+    {
+        SceneManager.LoadScene("MAINGAME1_1");
+    }
+    public void ENDING1()
+    {
+        SceneManager.LoadScene("MAINGAME2_1");
+    }
+    public void CHOIX1_2()
+    {
+        SceneManager.LoadScene("MAINGAME1_2");
+    }
+    public void ENDING2()
+    {
+        SceneManager.LoadScene("MAINGAME2_1");
+    }
+    public void CHOIX2()
+    {
+        SceneManager.LoadScene("MAINGAME2");
+    }
+    public void CHOIX2_1()
+    {
+        SceneManager.LoadScene("MAINGAME2_1");
+    }
+    public void ENDING3()
+    {
+        SceneManager.LoadScene("MAINGAME2_1");
+    }
+    public void CHOIX2_2()
+    {
+        SceneManager.LoadScene("MAINGAME_2_2");
+    }
+    public void ENDING4()
+    {
+        SceneManager.LoadScene("MAINGAME2_1");
     }
 }

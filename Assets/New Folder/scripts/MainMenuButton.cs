@@ -39,7 +39,7 @@ public class MainMenuButton : MonoBehaviour
     {
         if (_hidden == true) {return;}
         ImageOutline.DOKill();
-        ImageOutline.DOFade(0.5f, 0.1f);
+        ImageOutline.DOFade(0, 0.1f);
         UITextMeshPro.DOKill();
         UITextMeshPro.DOColor(InitialColor,0.2f);
     }
